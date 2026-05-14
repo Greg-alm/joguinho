@@ -1,0 +1,61 @@
+body{
+    background-color: aliceblue;
+    color: aqua;
+    justify-content: center;
+    padding: 20px;
+}
+
+.arena{
+    background: #262626;
+    padding:25px;
+    border:2px solid #444;
+}
+h2{
+    text-align: center;
+    color: darkgoldenrod;
+}
+.controles{
+    display:flex;
+    flex-direction: column;
+    gap:10px;   /*Ele define o espaço entre os elementos */
+    margin-bottom: 20px;
+}
+
+imput,select{
+    padding: 10px;
+    background: #333;
+    border: 1px solid #555;
+    color: #ffff;
+    border-radius: 5px;
+}
+button{
+    padding: 12px;
+    background: #ff9900;
+    border: node;
+    color: #1a1a1a;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:houver{
+    background: #ff9900;
+}
+#log{
+    background: #0000;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;  /*define uma altura minima para um elemento*/
+    border-left: 4px;
+}
+.critico{
+    color: #f44;
+    font-weight:bold;
+}
+.sucesso{
+    color:#4f4f
+}
+.derrota{
+    color: #888;
+    font-style: italic;
+}
